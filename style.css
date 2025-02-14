@@ -1,0 +1,330 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    /* background-color: yellow; */
+    padding: 8px 12px;
+    margin-left: 10px;
+    transition: transform 0.5s ease-in-out;
+   
+}
+.logo:hover{
+    transform: rotate(0deg);
+    animation: spin 1s linear forwards;
+}
+.fb{
+    background-color: blue;
+    color: white;
+}
+.tw{
+    background-color: skyblue;
+    color: black;
+}
+.lin{
+    background-color: cornflowerblue;
+    color: white;
+}
+.go{
+    background-color: red;
+    color: white;
+}
+.navhead{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.navitem{
+    padding: 8px 10px;
+    margin: 0px 10px ;
+}
+.navitem:hover{
+    background-color: rgb(224, 7, 7);
+    font-weight: 600;
+
+}
+.homehead{
+    height:100vh;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/02/56/blonde-1866951_1280.jpg");
+    background-position: 100% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.formcontainer{
+    height: 380px;
+    width: 450px;
+    background-color: rgb(216, 142, 5);
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    border: 2px double white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formsub{
+    height: 350px;
+    width: 420px;
+    border: 5px double white;
+    padding: 10px;
+}
+.inputitem{
+    background-color: rgb(216, 142, 5);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid ;
+}
+.mybtn{
+    border: 2px solid white;
+}
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(96, 5, 182);
+    color: white;
+    padding: 30px 20px;
+}
+.section2sub{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section2img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.section2text{
+    width: 500px;
+    
+}
+ul{
+    list-style-type: none;
+}
+.dropdownselect{
+    width: 250px;
+    padding: 5px;
+}
+@keyframes spin {
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(360deg);
+}
+}
+.searchcourse{
+    border-left: 2px solid white;
+    width: 50%;
+}
+.section3sub{
+    padding: 50px 80px;
+    display: flex;
+}
+.paracontai{
+    padding: 0px 10px;
+    font-size: 13.5px;
+}
+.section3btn{
+    cursor: pointer;
+    font-size: 18px;
+}
+.sect3p{
+    margin-left: 300px;
+    font-size: 23px;
+}
+.slectbranch{
+    width: 250px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    margin-right: 50px;
+}
+.cardsub{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    margin: 10px 40px;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    background-color: lightgray;
+    position: relative;
+    
+
+}
+.section5{
+   
+    height: 280px;
+    background-color: lightgray;
+    position: relative;
+    
+
+}
+.searchinputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    
+    font-size: 70px;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.section3con{
+    position: relative;
+}
+
+.down-arrow-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(50, 46, 46);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: pulse 1s infinite;
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+}
+
+.down-arrow-btn:hover {
+    background-color: #0056b3;
+}
+.down-arrow-btn i {
+    font-size: 24px; /* Constant size */
+    color: white;
+}
+.section5card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section6{
+    height: 60vh;
+    width: 100%;
+    background: url("https://cdn.pixabay.com/photo/2015/05/31/13/02/mobile-phone-791644_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    position: relative;
+    .section6-cover{
+        position: absolute;
+        height: 60vh;
+        width: 100%;
+        background-color: rgba(23, 125, 23, 0.45);
+        font-weight: 500;
+    }
+}
+.section6-content{
+    padding: 30px;
+    line-height: 1.8;
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+}
+
+.section7{
+    height: 70vh;
+    width: 100%;
+    background: url("https://cdn.pixabay.com/photo/2019/01/15/15/43/writing-3934298_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    position: relative;
+    .section7cover{
+        position: absolute;
+        height: 70vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.45);
+        font-weight: 500;
+    }
+}
+.section7subcotent{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+    top: 10px;
+}
+.hex-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    justify-content: center;
+    position: relative;
+}
+
+.hexagon {
+    width: 140px;
+    height: 160px; /* Adjust for proper hexagon aspect ratio */
+    background-color: white;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.hex-grid .hexagon:nth-child(6),
+.hex-grid .hexagon:nth-child(7),
+.hex-grid .hexagon:nth-child(8),
+.hex-grid .hexagon:nth-child(9) {
+    grid-column: span 1;
+    margin-left: 5px; 
+}
+.section8container{
+    padding: 15px;
+    border: 3px solid grey;
+    border-radius: 15px;
+    margin: 10px;
+  
+}
+.slide-video{
+    margin: 5px;
+}
+.sectionvideo{
+    height: 300px;
+    border-radius: 15px;
+    padding: 10px 0px;
+}
